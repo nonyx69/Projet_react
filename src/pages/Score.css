@@ -1,0 +1,37 @@
+.score-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.score-card {
+    background: #1a1a1a;
+    padding: 3rem;
+    border-radius: 20px;
+    text-align: center;
+    border: 2px solid #646cff;
+}
+
+.final-score {
+    font-size: 4rem;
+    color: #646cff;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.btn-retry {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+:root {
+    display: flex;
+    justify-content: center;
+
+}
