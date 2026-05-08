@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-// Vérifie bien ce chemin selon ton arborescence :
 import { categories, difficulties } from '../data/constants';
 import './Home.css';
 
@@ -8,7 +7,6 @@ function Home() {
     const [selection, setSelection] = useState({ cat: "", diff: "" });
     const navigate = useNavigate();
 
-    // Le bouton ne s'active que si les deux choix sont faits
     const canStart = selection.cat !== "" && selection.diff !== "";
 
     const handleStart = () => {
